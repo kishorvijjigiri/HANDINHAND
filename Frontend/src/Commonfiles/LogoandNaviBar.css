@@ -1,0 +1,84 @@
+/* Main container for the navbar */
+.navMain {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 0px;
+}
+
+/* Container within the navbar */
+.navMain .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Section containing the title and navigation items */
+.navsection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* Navigation items */
+.navi {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.navitem {
+    padding: 23px;
+}
+
+.navitem:hover {
+    background-color: rgb(222, 220, 220);
+}
+
+/* Styling for the logo */
+.logo-img {
+    height: 70px; /* Adjust the height as needed */
+    width: auto;
+    display: block;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+/* Remove underline from links */
+.navlink a {
+    text-decoration: none;
+    color: inherit; /* Keeps the text color consistent */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navsection {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navitem {
+        margin-bottom: 10px;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1300px;
+    }
+}
+@media (max-width: 992px) {
+button{
+    width: 60px;
+}
+}
+@media (max-width: 336px) {
+    button{
+        width: 100%;
+    }
+    }

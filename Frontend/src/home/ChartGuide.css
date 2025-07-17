@@ -1,0 +1,30 @@
+.mainchart {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0px;
+    padding: 15px;
+}
+.chartmain{
+    font-family: none;
+}
+/* .chartimg{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+.searchbut {
+    background-color: #e92c2c;
+    width: 30%;
+    margin-left: 20%;
+}
+@media (max-width: 768px) {
+    .mainchart {
+        display: block;
+        padding: 0px;
+    }
+    .img3{
+        width: 100%;
+    }
+    .searchbut {
+        width: 50%;
+        margin-left: 25%;
+    }
+}

@@ -1,0 +1,15 @@
+@media (min-width: 768px) {
+    .galimg{
+    width: 33.33% !important;
+}
+}  
+@media (max-width: 768px) {
+    .galimg{
+    width: 50% !important;
+}
+}  
+@media (max-width: 426px) {
+    .galimg{
+    width: 100% !important;
+}
+}  
